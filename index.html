@@ -4,10 +4,38 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>mid-react-gameweb</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <main>
+        <div class="content-wrapper">
+          <h1>Game Board</h1>
+          <div class="status">Game Status: In Progress</div>
+          <div class="board">
+            <div class="square">X</div>
+            <div class="square">O</div>
+            <div class="square">X</div>
+            <div class="square">O</div>
+            <div class="square">X</div>
+            <div class="square">O</div>
+            <div class="square">X</div>
+            <div class="square">O</div>
+            <div class="square">X</div>
+          </div>
+          <div class="button-container">
+            <button>Restart</button>
+            <button>Guess</button>
+          </div>
+        </div>
+      </main>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@ import UltimatePassword from '../components/UltimatePassword';
 const UltimatePasswordPage: React.FC = () => {
     return (
         <div>
-            <h2>Ultimate Password</h2>
+            <h2>終極密碼</h2>
             <UltimatePassword />
         </div>
     );
